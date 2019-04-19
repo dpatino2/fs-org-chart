@@ -1,14 +1,14 @@
-<div *ngIf="!users">Loading User Data...</div>
+<div *ngIf="!orgNodes">Loading User Data...</div>
 
-<div *ngIf="users">
+<div *ngIf="orgNodes">
   
-<h1>System Users</h1>
+<h1>Org Codes</h1>
   <table class='table table-striped'>
-    <tr><th>Name</th><th>Email</th><th>Created</th></tr>
-    <tr *ngFor="let user of users">
-      <td>{{ user.first_name }} {{ user.last_name }}</td>
-      <td>{{ user.email }}</td>
-      <td>{{ user.sys_created_on | date: 'mediumDate'}}</td>
+    <tr><th>Code</th><th>Description</th><th>Level</th></tr>
+    <tr *ngFor="let org of orgNodes">
+      <td>{{ org.code }}</td>
+      <td>{{ org.description }}</td>
+      <td>{{ org.level }}</td>
     </tr>
   </table>
 </div>

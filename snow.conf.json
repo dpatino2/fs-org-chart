@@ -1,26 +1,27 @@
 {
   "snow": {
-    "instance": "",
-    "auth": "",
-    "endpoint": ""
+    "instance": "dev73143.service-now.com",
+    "auth": "Basic ZGV2Lm9uZTpTdGFydDEyMzQ=",
+    "endpoint": "x_0290_org_chart.do"
   },
   "application": {
-    "name": "",
-    "scope": "",
-    "sys_id": ""
+    "name": "FS Org Chart",
+    "scope": "x_0290_org_chart",
+    "sys_id": "1156449fdb70730448389026db9619d1"
   },
   "files": {
     "html": {
-      "index": ""
+      "index": "70860c13dbb0730448389026db9619b2"
     },
     "js": {
       "inline": "",
-      "polyfills": "",
+      "polyfills": "bc860c13dbb0730448389026db9619c0",
       "vendor": "",
-      "main": ""
+      "main": "34860c13dbb0730448389026db961996",
+      "runtime": "7c860c13dbb0730448389026db9619a1"
     },
     "css": {
-      "styles": ""
+      "styles": "c5860c13dbb0730448389026db9619ea"
     }
   }
 }
