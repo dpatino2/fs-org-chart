@@ -1,7 +1,7 @@
 {
   "snow": {
     "instance": "dev73143.service-now.com",
-    "auth": "Basic ZGV2Lm9uZTpTdGFydDEyMzQ=",
+    "auth": "Basic",
     "endpoint": "x_0290_org_chart.do"
   },
   "application": {
