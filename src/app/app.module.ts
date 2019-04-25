@@ -14,6 +14,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
 import { HomeComponent } from './home/home.component';
 import { OrgVisualComponent } from './org/org-visual/org-visual.component';
 import { OrgListComponent } from './org/org-list/org-list.component';
+import { OrgDiagramComponent } from './org/org-diagram/org-diagram.component';
 
 
 const appRoutes: Routes = [
@@ -30,7 +31,8 @@ const appRoutes: Routes = [
     NotFoundComponent,
     HomeComponent,
     OrgVisualComponent,
-    OrgListComponent
+    OrgListComponent,
+    OrgDiagramComponent
   ],
   imports: [
     RouterModule.forRoot(appRoutes, { useHash: true }),

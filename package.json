@@ -26,6 +26,7 @@
     "@angular/router": "6.0.7",
     "@ng-bootstrap/ng-bootstrap": "^3.3.1",
     "core-js": "^2.4.1",
+    "gojs": "^1.8.38",
     "rxjs": "^6.0.0",
     "rxjs-compat": "^6.2.1",
     "zone.js": "^0.8.26"
@@ -53,6 +54,6 @@
     "protractor": "~5.3.1",
     "ts-node": "~6.0.1",
     "tslint": "~5.9.1",
-    "typescript": "2.7.2"
+    "typescript": "^2.7.2"
   }
 }

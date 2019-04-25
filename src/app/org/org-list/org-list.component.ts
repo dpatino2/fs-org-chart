@@ -14,7 +14,7 @@ export class OrgListComponent implements OnInit {
   constructor(private orgService: OrgNodeService) { }
 
   ngOnInit() {
-    this.orgService.getOrgNodes()
+    this.orgService.getOrgNodeData()
       .subscribe(res => this.orgNodes = res.result)
   }
 
