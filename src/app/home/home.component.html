@@ -1,14 +1,5 @@
-<div *ngIf="!orgNodes">Loading User Data...</div>
 
-<div *ngIf="orgNodes">
-  
-<h1>Org Codes</h1>
-  <table class='table table-striped'>
-    <tr><th>Code</th><th>Description</th><th>Level</th></tr>
-    <tr *ngFor="let org of orgNodes">
-      <td>{{ org.code }}</td>
-      <td>{{ org.description }}</td>
-      <td>{{ org.level }}</td>
-    </tr>
-  </table>
-</div>
+
+<nav class="navbar navbar-dark bg-secondary"><h1 style="color: whitesmoke">Organizational Structure</h1></nav>
+<app-org-visual></app-org-visual>
+<!--<app-org-list></app-org-list>-->

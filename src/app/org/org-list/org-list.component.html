@@ -1,0 +1,8 @@
+<table class='table table-striped'>
+  <tr><th>Code</th><th>Description</th><th>Level</th></tr>
+  <tr *ngFor="let org of orgNodes">
+    <td>{{ org.code }}</td>
+    <td>{{ org.description }}</td>
+    <td>{{ org.level }}</td>
+  </tr>
+</table>

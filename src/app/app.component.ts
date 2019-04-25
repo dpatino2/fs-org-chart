@@ -8,8 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class AppComponent implements OnInit {
   branding = 'ng-snow';
 
-  constructor(
-  ) { }
+  constructor() { }
 
   ngOnInit() {
     document.title = this.branding;

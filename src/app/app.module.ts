@@ -5,12 +5,15 @@ import { HttpClientModule } from '@angular/common/http';
 import { Routes, RouterModule } from '@angular/router';
 import { APP_BASE_HREF, Location } from '@angular/common';
 import { HTTP_INTERCEPTORS } from '@angular/common/http';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { SnowInterceptor } from './services/snow.interceptor';
 
 import { AppComponent } from './app.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { HomeComponent } from './home/home.component';
+import { OrgVisualComponent } from './org/org-visual/org-visual.component';
+import { OrgListComponent } from './org/org-list/org-list.component';
 
 
 const appRoutes: Routes = [
@@ -25,13 +28,16 @@ const appRoutes: Routes = [
   declarations: [
     AppComponent,
     NotFoundComponent,
-    HomeComponent
+    HomeComponent,
+    OrgVisualComponent,
+    OrgListComponent
   ],
   imports: [
     RouterModule.forRoot(appRoutes, { useHash: true }),
     BrowserModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    NgbModule
   ],
   providers: [
     { provide: HTTP_INTERCEPTORS, useClass: SnowInterceptor, multi: true },
